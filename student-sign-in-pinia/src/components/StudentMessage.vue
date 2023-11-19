@@ -4,7 +4,7 @@ import { storeToRefs } from 'pinia'
 
 const studentStore = useStudentStore()
 
-const { mostRecentStudent } = storeToRefs(studentStore)
+const { mostRecentStudent } = storeToRefs(studentStore)//references the store file and chooses a variable to use from it
 
 
 

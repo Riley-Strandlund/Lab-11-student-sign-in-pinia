@@ -18,7 +18,7 @@ const deleteStudent = (student) => {
 }
 
 const arrivedOrLeft = (student, IsStudentPresent) => {
-    student.present = IsStudentPresent //
+    student.present = IsStudentPresent //changes the boolean status of a student
     studentStore.arrivedOrLeft(student)
 }
 

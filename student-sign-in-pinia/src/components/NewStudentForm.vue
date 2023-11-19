@@ -31,7 +31,7 @@
 
             // TODO - how to add student? Different from Lab 9 where we append it to an array. 
             // Have to find a way to emit it to App.vue
-            studentStore.addNewStudent(student)
+            studentStore.addNewStudent(student)//reference store file and function add parameter to give context to the function.
 
             newStudentName.value = ''
             newStarID.value = ''
